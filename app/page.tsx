@@ -18,9 +18,14 @@ export default function LandingPage() {
             <a href="#kit" className="hover:text-white transition-colors">Starter Kit</a>
             <a href="#faq" className="hover:text-white transition-colors">FAQ</a>
           </div>
-          <button className="px-4 py-2 rounded-full bg-white text-slate-950 text-sm font-semibold hover:bg-slate-200 transition-all">
+          <a 
+            href="https://flashmoz.gumroad.com/l/aether-video-agent" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="px-4 py-2 rounded-full bg-white text-slate-950 text-sm font-semibold hover:bg-slate-200 transition-all"
+          >
             Get Started
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -48,10 +53,15 @@ export default function LandingPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <button className="group px-8 py-4 rounded-full bg-violet-600 hover:bg-violet-500 text-white font-semibold transition-all flex items-center gap-2 shadow-lg shadow-violet-600/20">
+              <a 
+                href="https://flashmoz.gumroad.com/l/aether-video-agent" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group px-8 py-4 rounded-full bg-violet-600 hover:bg-violet-500 text-white font-semibold transition-all flex items-center gap-2 shadow-lg shadow-violet-600/20"
+              >
                 Buy Starter Kit for $97
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               <button className="px-8 py-4 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 text-white font-semibold transition-all">
                 View Roadmap
               </button>
@@ -155,9 +165,14 @@ export default function LandingPage() {
                   <span>**Lifetime Updates:** All future agent patches & model upgrades</span>
                 </li>
               </ul>
-              <button className="w-full mt-10 py-4 rounded-xl bg-white text-slate-950 font-bold hover:bg-slate-200 transition-all">
+              <a 
+                href="https://flashmoz.gumroad.com/l/aether-video-agent" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="block w-full text-center mt-10 py-4 rounded-xl bg-white text-slate-950 font-bold hover:bg-slate-200 transition-all"
+              >
                 Secure Early-Bird Access — $97
-              </button>
+              </a>
             </div>
           </div>
         </section>
